@@ -63,6 +63,12 @@ func main() {
 
 	fmt.Println("Spanning tree")
 	fmt.Println(spanningTree)
+
+	total := 0.0
+	for k := range spanningTree {
+		total += k.Weight()
+	}
+	fmt.Println("Total: ", total)
 }
 
 /*

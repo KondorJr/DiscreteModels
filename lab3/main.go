@@ -34,7 +34,7 @@ func main() {
 		cities[i-1] = tmp
 	}
 
-	gg := permutation([]int{1, 2, 3, 4, 5, 6, 7})
+	gg := permutation([]int{1, 2, 3})
 
 	total := 0
 
